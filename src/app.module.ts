@@ -22,6 +22,7 @@ import entities from 'src';
         entities: entities,
         synchronize: true,
         logging: true,
+        ssl: true,
       }),
       inject: [ConfigService],
     }),
